@@ -1,0 +1,39 @@
+body{
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+header{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+/*nav styles*/
+nav{
+  height: 100px;
+}
+nav img{
+  height: 1.5rem;
+  padding: 1rem 1rem 1rem 2rem;
+
+}
+
+nav .menu{
+  display: flex;
+  align-items: center;
+}
+.topbanner {
+  width: 960px;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
