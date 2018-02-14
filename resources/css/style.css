@@ -25,6 +25,9 @@ nav{
   justify-content: space-between;
   padding: 1rem 0px;
 }
+.mobile-menu {
+  visibility: hidden;
+}
 /*this css makes the text center next to the logo */
 nav div {
   display: flex;
@@ -147,5 +150,63 @@ footer img {
   }
   .main-banner{
     margin-top: 5rem;
+    padding: 0.75rem 4rem;
+    margin-right: 2rem;
   }
+h1 {
+  font-size: 1.33rem;
+}
+header {
+  height: 22rem;
+}
+}
+@media only screen and (max-width: 960px) {
+nav.container {
+  max-width: 100%;
+}
+header {
+    padding-top: 0px;
+    height: 22rem;
+  }
+.menu {
+  visibility: hidden;
+}
+.mobile-menu {
+  visibility: visible;
+}
+.container span {
+  visibility: hidden;
+}
+header {
+  padding-top: 0px;
+  height: 17rem;
+}
+.main-banner {
+  margin: 9rem auto 0 auto;
+  padding: 0px 1rem;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  font-size: 1rem;
+}
+.supporting {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 3rem;
+  margin-bottom: 3.77rem;
+}
+.service div {
+  font-size: 0.77rem;
+}
+.service {
+  margin-bottom: 1.54rem;
+}
+.info .title {
+  max-width: 100%;
+  width: 100%;
+  text-align: center;
+
+}
 }
