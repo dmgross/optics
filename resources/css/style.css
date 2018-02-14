@@ -214,9 +214,9 @@ h1 {
   width: 100%;
   text-align: center;
 }
-info p {
+p {
   font-size: 0.77rem;
-  padding: 1rem;
+  padding: 1rem 2rem;
   margin-right: 2rem;
   text-align: center;
 }
